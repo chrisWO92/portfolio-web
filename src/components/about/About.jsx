@@ -19,7 +19,9 @@ const About = () => {
           </div>
 
         <div className="about__content">
+
           <div className="about__cards">
+            
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Experience</h5>
@@ -35,13 +37,12 @@ const About = () => {
               <h5>Projects</h5>
               <small>20+ completed</small>
             </article>
+            
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, quibusdam. Pariatur magnam iure exercitationem modi fuga, totam inventore voluptatem saepe repellendus quidem magni harum consequuntur cum blanditiis, ipsa, hic repellat.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
-
-          {/*Voy por 1:28*/}
 
         </div>
       </div>
