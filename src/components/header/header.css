@@ -1,7 +1,23 @@
 header {
     height: 100vh;
+    width: 100%;
     padding-top: 7rem;
     overflow: hidden;
+    position: relative;
+}
+
+.header-bg {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+#video-bg {
 }
 
 .header__container {
@@ -52,6 +68,7 @@ adding the line above the social icons
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 3.5rem 0 0 0;
+    display: none;
 }
 
 /*-----------SCROLL DOWN------------*/
