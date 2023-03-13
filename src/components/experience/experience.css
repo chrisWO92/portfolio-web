@@ -41,11 +41,13 @@
 
 .experience__details {
     display: flex;
-    gap: 1rem;
+    gap: 0rem;
 }
 
 .experience__details__icon {
-    margin-top: 6px;
+    height: 2.54rem;
+    width: auto;
+    margin: auto;
     color: var(--color-primary);
 }
 
