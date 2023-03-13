@@ -13,32 +13,53 @@
     gap: 5%;
 }
 
-.about__me {
+/* .about__me {
     width: 100%;
-    /*aspect-ratio is for defining the resolution of the image inside a div. Could be 16/9 ot 0.5 for example*/
+    aspect-ratio is for defining the resolution of the image inside a div. Could be 16/9 ot 0.5 for example
     aspect-ratio: 1/1;
     border-radius: 2rem;
-    /* background: linear-gradient(
+    background: linear-gradient(
         45deg,
         transparent,
         var(--color-primary),
         transparent
-        ); */
+        );
     display: grid;
     place-items: start;
-    /* margin-top: 2.5rem; */
-}
+    margin-top: 2.5rem;
+} */
 
 .about__me__image {
-    border-radius: 2rem;
+    
+    padding-bottom: 4rem;
+    width: 80%;
+    position: relative;
+    /*bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    /*left: calc(50% - 11rem) same way*/
+    /* border-radius: 12rem; */
     overflow: hidden;
-    /* transform: rotate(10deg);
-    transition: var(--transition); */
+    animation: floating linear 4s infinite;
 }
 
-.about__me__image:hover {
-    transform: rotate(0deg);
+@keyframes floating {
+    0% {
+        top: 0%;
+    }
+
+    50% {
+        top: 7%;
+    }
+
+    100% {
+        top: 0%;
+    }
 }
+
+/* .about__me__image:hover {
+    transform: rotate(0deg);
+} */
 
 .about__cards {
     display: grid;
@@ -76,6 +97,14 @@
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+}
+
+.text_container {
+    width: 100%;
+}
+
+.about_text {
+    margin: auto;
 }
 
 

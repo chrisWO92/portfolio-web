@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import CTA from './CTA';
-import ME from '../../assets/astronaut2.png'
+import ME from '../../assets/astronaut4.png'
 import HeaderSocials from './HeaderSocials'
 // import Video from '../../assets/header_video.mp4'
 import { TypeAnimation } from 'react-type-animation'
