@@ -1,3 +1,12 @@
+#testimonials {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
 .container.testimonials__container {
     width: 40%;
     padding-bottom: 3rem;
