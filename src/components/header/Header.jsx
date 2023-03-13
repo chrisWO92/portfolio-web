@@ -20,22 +20,22 @@ const Header = () => {
           <TypeAnimation
             // Same String at the start will only be typed once, initially
             sequence={[
-            "Hello, I'm chrisWO92 :D",
+            "Welcome to my site :D",
+            1000,
+            "I'm chrisWO92",
             1000,
             'Front-end Developer...',
             1000,
-            'Gym Addict...',
-            1000,
-            'Books Addict...',
-            1000,
-            'Music Addict...',
+            'Books & Music Lover...',
             1000,
             'Yoga Practitioner...',
+            1000,
+            "And Life-long learner!",
             1000,
             '',
             1300,
             ]}
-            speed={50} // Custom Speed from 1-99 - Default Speed: 40
+            speed={60} // Custom Speed from 1-99 - Default Speed: 40
             className='animated_text'
             wrapper="span" // Animation will be rendered as a <span>
             repeat={Infinity} // Repeat this Animation Sequence infinitely
