@@ -20,7 +20,7 @@ import { Pagination } from "swiper";
 const about_text = [
   {
     id: 1,
-    text: "I’m a guy with a deep passion for learning and challenging myself to do new and fancy stuff. A few time ago I got delighted with tech world, reason why I’ve spent the last two years improving my programming and creative skills. I’ve gone through highly recommended courses and bootcamps, youtube tutorials, and built an interesting array of personal projects that you’ll see in the next section."
+    text: "I’m a guy with a deep passion for learning and challenging myself to do new and fancy stuff. A few time ago I got delighted with tech world, reason why I’ve spent the last two years improving my programming and creative skills. I’ve gone through highly recommended courses and bootcamps, youtube tutorials, and built an interesting array of personal projects that you’ll see in next sections."
   },
   {
     id: 2,
