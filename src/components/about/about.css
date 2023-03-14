@@ -83,6 +83,10 @@
     cursor: default;
 }
 
+.about__card > h5 {
+    font-size: 1.2rem;
+}
+
 .about__icon {
     color: var(--color-primary);
     font-size: 1.4rem;
@@ -90,13 +94,17 @@
 }
 
 .about__card small {
-    font-size: 0.7rem;
+    font-size: 1rem;
     color: var(--color-light);
 }
 
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+}
+
+.about_cta {
+    font-size: 1.2rem;
 }
 
 .text_container {

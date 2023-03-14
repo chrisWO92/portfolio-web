@@ -84,7 +84,7 @@ const About = () => {
             }}
             modules={[Pagination]}
             navigation
-      >
+            >
 
             {
               about_text.map(({id, text}) => {
@@ -100,7 +100,7 @@ const About = () => {
         
           </Swiper>
 
-          <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+          <a href="#contact" className='btn btn-primary about_cta'>Let's Talk</a>
 
 
 

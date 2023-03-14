@@ -28,7 +28,7 @@ const Header = () => {
             1000,
             'Books & Music Lover...',
             1000,
-            'Yoga Practitioner...',
+            'Sci-fi Consumer...',
             1000,
             "And Life-long learner!",
             1000,

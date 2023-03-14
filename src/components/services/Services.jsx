@@ -9,7 +9,7 @@ const Services = () => {
       <h2>Services</h2>
 
       <div className='container services__container'>
-        <article className='service'>
+        {/* <article className='service'>
           <div className='service__head'>
             <h3>UI/UX Design</h3>
           </div>
@@ -39,41 +39,45 @@ const Services = () => {
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
           </ul>
-        </article>
+        </article> */}
         {/*END OF UI/UX*/}
         <article className='service'>
           <div className='service__head'>
-            <h3>Web Development</h3>
+            <h3 className='subtitle'>Front-end Development</h3>
           </div>
           <ul className='service__list'>
             <li>
               <BiCheck className='service__list__icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Responsive Websites for Desktop and Mobile</p>
             </li>
             <li>
               <BiCheck className='service__list__icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Single-Page Apps with React</p>
             </li>
             <li>
               <BiCheck className='service__list__icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>User experience optimization</p>
             </li>
             <li>
               <BiCheck className='service__list__icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Development and maintenance of user interfaces</p>
             </li>
             <li>
               <BiCheck className='service__list__icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Improvement of site interaction regardless of the browser</p>
             </li>
             <li>
               <BiCheck className='service__list__icon' />
-              <p>Lorem ipsum dolor sit amet consectetur.</p>
+              <p>Bug fixing and usability testing</p>
+            </li>
+            <li>
+              <BiCheck className='service__list__icon' />
+              <p>SEO best practices implementation</p>
             </li>
           </ul>
         </article>
         {/*END OF WEB DEVELOPMENT*/}
-        <article className='service'>
+        {/* <article className='service'>
           <div className='service__head'>
             <h3>Content Creation</h3>
           </div>
@@ -103,7 +107,7 @@ const Services = () => {
               <p>Lorem ipsum dolor sit amet consectetur.</p>
             </li>
           </ul>
-        </article>
+        </article> */}
         {/*END OF CONTENT CREATION*/}
         
       </div>

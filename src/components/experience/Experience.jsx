@@ -1,8 +1,6 @@
 import React from 'react';
 import './experience.css';
 
-import {BsPatchCheckFill} from 'react-icons/bs'
-
 import {DiJavascript1} from 'react-icons/di'
 import {AiFillHtml5} from 'react-icons/ai'
 import {IoLogoCss3} from 'react-icons/io'
@@ -22,7 +20,7 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+          <h3 className='experience_subtitle'>Frontend Development</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <AiFillHtml5 className='experience__details__icon' />

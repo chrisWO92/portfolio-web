@@ -76,15 +76,18 @@ section {
     
 }
 
-section > h2, 
+
 section > h5 {
     text-align: center;
     color: var(--color-light);
+    font-size: 1.2rem;
 }
 
 section > h2 {
+    text-align: center;
     color: var(--color-primary);
     margin-bottom: 3rem;
+    font-size: 2rem;
 }
 
 .text-light {

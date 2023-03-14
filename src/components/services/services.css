@@ -8,9 +8,9 @@
 }
 
 .services__container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .service {
@@ -34,14 +34,18 @@
     box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
-.service__head h3 {
+.subtitle {
     color: var(--color-bg);
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
+    margin: auto;
 }
 
 .service__list {
-    padding: 2rem;
+    padding: 2.8rem 2.6rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 .service__list li {
@@ -56,7 +60,7 @@
 }
 
 .service__list p {
-    font-size: 0.9rem;
+    font-size: rem;
 }
 
 

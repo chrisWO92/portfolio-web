@@ -11,7 +11,7 @@ footer a {
 }
 
 .footer__logo {
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 500;
     margin-bottom: 2rem;
     display: inline-block;
@@ -22,14 +22,18 @@ footer a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin: 0 auto 3rem;
+    margin: 0 auto 2.5rem;
+}
+
+.permalinks > li > a {
+    font-size: 1.2rem;
 }
 
 .footer__socials {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3.5rem;
 }
 
 .footer__socials a {
@@ -39,6 +43,7 @@ footer a {
     border-radius: 0.7rem;
     display: flex;
     border: 1px solid transparent;
+    font-size: 1.2rem;
 }
 
 .footer__socials a:hover {
@@ -48,8 +53,12 @@ footer a {
 }
 
 .footer__copyright {
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
     color: var(--color-bg);
+}
+
+.footer__copyright > small {
+    font-size: 1rem;
 }
 
 /*-----------------MEDIA QUERIES (MEDIUM DEVICES) ------------*/

@@ -30,7 +30,8 @@
     cursor: default;
 }
 
-.experience__container > div h3 {
+.experience_subtitle {
+    font-size: 1.2rem;
     margin: auto;
     text-align: center;
     margin-bottom: 2rem;
