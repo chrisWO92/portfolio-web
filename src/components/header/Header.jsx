@@ -35,7 +35,7 @@ const Header = () => {
             '',
             1300,
             ]}
-            speed={60} // Custom Speed from 1-99 - Default Speed: 40
+            speed={30} // Custom Speed from 1-99 - Default Speed: 40
             className='animated_text'
             wrapper="span" // Animation will be rendered as a <span>
             repeat={Infinity} // Repeat this Animation Sequence infinitely
