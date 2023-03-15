@@ -126,16 +126,11 @@ adding the line above the social icons
 
 }
 
-/*-----------------MEDIA QUERIES (420 x 950) ------------*/
-@media screen and (max-width: 420px) and (max-height: 950px) {
+/*-----------------MEDIA QUERIES (950 x 1400) ------------*/
+@media screen and (max-width: 950px) and (max-height: 1400px) and (orientation: portrait) {
 
     header {
         height: 100vh;
-    }
-
-    .header__socials,
-    .scroll__down {
-        display: none;
     }
 
     .header__container {
@@ -150,13 +145,165 @@ adding the line above the social icons
     .me {
         order: 1;
         height: auto;
+        width: 25vh;
+        margin: 10vh auto 0;
+        padding: 5vh 0 0 0;
+    }
+
+    .animated_text {
+        font-size: 2.5rem;
+    }
+
+    .header__text {
+        order: 2;
+        width: 100%;
+        margin: 10vh auto 0rem;
+    }
+
+    .cta > a {
+        font-size: 2rem;
+    }
+
+    .header__socials{
+        gap: 1.5vh;
+        bottom: 8vh;
+    }
+
+    .header__socials > a {
+        font-size: 1.7rem;
+    }
+
+    .scroll__down {
+        font-size: 1.6rem;
+        bottom: 18vh;
+    }
+
+}
+
+/*-----------------MEDIA QUERIES (830 x 1200) ------------*/
+@media screen and (max-width: 830px) and (max-height: 1200px) and (orientation: portrait) {
+
+    .me {
+        width: 25vh;
+        margin: 10vh auto 0;
+        padding: 5vh 0 0 0;
+    }
+
+    .animated_text {
+        font-size: 2rem;
+    }
+
+    .header__text {
+        width: 100%;
+        margin: 10vh auto 0rem;
+    }
+
+    .cta > a {
+        font-size: 1.5rem;
+    }
+
+    .header__socials{
+        gap: 1.5vh;
+        bottom: 8vh;
+    }
+
+    .header__socials > a {
+        font-size: 1.5rem;
+    }
+
+    .scroll__down {
+        font-size: 1.6rem;
+        bottom: 17vh;
+        right: -5vh;
+    }
+
+}
+
+/*-----------------MEDIA QUERIES (830 x 1200) ------------*/
+@media screen and (max-width: 800px) and (max-height: 1050px) and (orientation: portrait) {
+
+    .me {
+        margin: 4vh auto 0;
+        padding: 5vh 0 0 0;
+    }
+
+    .animated_text {
+        font-size: 2.3rem;
+    }
+
+    .header__text {
+        margin: 11vh auto 0rem;
+    }
+
+    .header__socials{
+        bottom: 7.5vh;
+    }
+
+    .scroll__down {
+        font-size: 1.6rem;
+        bottom: 17.4vh;
+        right: -5.7vh;
+    }
+
+}
+
+/*-----------------MEDIA QUERIES (550 x 730) ------------*/
+@media screen and (max-width: 550px) and (max-height: 730px) and (orientation: portrait) {
+    .me {
+        width: 25vh;
+        margin: 4vh auto 0;
+        padding: 5vh 0 0 0;
+    }
+
+    .animated_text {
+        font-size: 1.5rem;
+    }
+
+    .header__text {
+        width: 100%;
+        margin: 9vh auto 0rem;
+    }
+
+    .cta > a {
+        font-size: 1.1rem;
+    }
+
+    .header__socials{
+        gap: 1.5vh;
+        bottom: 8vh;
+    }
+
+    .header__socials > a {
+        font-size: 1rem;
+    }
+
+    .scroll__down {
+        bottom: 19vh;
+        right: -5.6vh;
+        font-size: 1.1rem;
+    }
+
+}
+
+/*-----------------MEDIA QUERIES (420 x 950) ------------*/
+@media screen and (max-width: 420px) and (max-height: 950px) and (orientation: portrait) {
+
+    header {
+        height: 100vh;
+    }
+
+    .header__socials,
+    .scroll__down {
+        display: none;
+    }
+
+    .me {
         width: 27vh;        
         margin: 1.4rem auto 0;
         padding: 3.8rem 0 0 0;
     }
 
     .header__text {
-        order: 2;
         width: 100%;
         margin-top: 12vh;
     }
@@ -172,7 +319,7 @@ adding the line above the social icons
 }
 
 /*-----------------MEDIA QUERIES (420 x 800) ------------*/
-@media screen and (max-width: 420px) and (max-height: 800px) {
+@media screen and (max-width: 420px) and (max-height: 800px) and (orientation: portrait) {
 
     .me {
         width: 25vh;
@@ -192,7 +339,7 @@ adding the line above the social icons
 }
 
 /*-----------------MEDIA QUERIES (420 x 750) ------------*/
-@media screen and (max-width: 420px) and (max-height: 750px) {
+@media screen and (max-width: 420px) and (max-height: 750px) and (orientation: portrait) {
     
     .me {
         width: 25vh;
@@ -212,7 +359,7 @@ adding the line above the social icons
 }
 
 /*-----------------MEDIA QUERIES (420 x 700 ...) ------------*/
-@media screen and (max-width: 420px) and (max-height: 700px) {
+@media screen and (max-width: 420px) and (max-height: 700px) and (orientation: portrait) {
 
     .me {
         width: 25vh;
@@ -237,7 +384,7 @@ adding the line above the social icons
 }
 
 /*-----------------MEDIA QUERIES (325 x 700 ...) ------------*/
-@media screen and (max-width: 325px) and (max-height: 700px) {
+@media screen and (max-width: 325px) and (max-height: 700px) and (orientation: portrait) {
 
     .me {
         width: 25vh;
@@ -259,7 +406,7 @@ adding the line above the social icons
 }
 
 /*-----------------MEDIA QUERIES (325 x 850 ...) ------------*/
-@media screen and (max-width: 325px) and (max-height: 850px) {
+@media screen and (max-width: 325px) and (max-height: 850px) and (orientation: portrait) {
 
     .me {
         width: 23vh;
@@ -288,7 +435,7 @@ adding the line above the social icons
 }
 
 /*-----------------MEDIA QUERIES (325 x 750 ...) ------------*/
-@media screen and (max-width: 325px) and (max-height: 750px) {
+@media screen and (max-width: 325px) and (max-height: 750px) and (orientation: portrait) {
 
     .me {
         margin-top: 10vh;
@@ -314,7 +461,7 @@ adding the line above the social icons
 }
 
 /*-----------------MEDIA QUERIES (325 x 680 ...) ------------*/
-@media screen and (max-width: 325px) and (max-height: 680px) {
+@media screen and (max-width: 325px) and (max-height: 680px) and (orientation: portrait) {
 
     .me {
         margin-top: 8vh;
@@ -326,11 +473,11 @@ adding the line above the social icons
 
     
     .animated_text {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 
     .cta {
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .cta > a {
