@@ -103,27 +103,71 @@ adding the line above the social icons
     font-size: 1.3rem;
 }
 
-
 /*-----------------MEDIA QUERIES (MEDIUM DEVICES) ------------*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1300px) and (max-height: 850px) and (orientation: landscape) {
     
-    header {
-        height: 68vh;
+    .animated_text {
+        font-size: 2.0rem;
+    }
+
+    .header__socials{
+        left: -8vh;
+        bottom: 3rem;
+    }
+
+    .scroll__down {
+        right: -14vh;
+        bottom: 18vh;
+    }
+
+    .header__text {
+        width: 40%;
     }
 
     .me {
-        width: 19rem;
-        height: 26rem;
-        padding: 2.1rem 0 0 0;
+        padding: 8rem 8rem 12rem 8rem;
+        width: 60%;
+        left: 9vh;
+    }
+}
+
+/*-----------------MEDIA QUERIES (MEDIUM DEVICES) ------------*/
+@media screen and (max-width: 1050px) and (max-height: 650px) and (orientation: landscape) {
+    
+    .animated_text {
+        font-size: 1.5rem;
     }
 
-    .cta {
-        margin-top: 1.4rem;
-        display: flex;
-        gap: 1.2rem;
-        justify-content: center;
+    .header__socials{
+        left: -4vh;
+        bottom: 3rem;
     }
 
+    .header__socials > a {
+        font-size: 1.1rem;
+    }
+
+    .scroll__down {
+        right: -11vh;
+        bottom: 22.5vh;
+        font-size: 1.1rem;
+    }
+
+    .header__text {
+        width: 56%;
+        position: relative;
+        left: 8vh;
+    }
+
+    .cta > a {
+        font-size: 1.1rem;
+    }
+
+    .me {
+        padding: 6rem 8rem 12rem 8rem;
+        width: 60%;
+        left: 5vh;
+    }
 }
 
 /*-----------------MEDIA QUERIES (950 x 1400) ------------*/
