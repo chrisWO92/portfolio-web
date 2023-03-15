@@ -12,6 +12,7 @@
     display: grid;
     grid-template-columns: 30% 58%;
     gap: 12%;
+    margin: 0 auto;
 }
 
 .contact__options {
