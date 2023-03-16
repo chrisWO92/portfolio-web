@@ -12,7 +12,7 @@ const Header = () => {
       {/* <div className="header-bg">
         <video src={Video} autoplay='autoplay' muted loop type="video/mp4" id='video-bg'/>
       </div> */}
-      <div className="container header__container">
+      <div className="header__container">
         <div className='header__text'>
           {/* <h5>Hello I'm</h5>
           <h2>CrisWO92</h2> */}

@@ -1,5 +1,8 @@
+/*========== GENERAL DESKTOP ===========*/
+
 nav {
-    background: rgba(0, 0, 0, 0.3);
+    background: white;
+    /* background: rgba(0, 0, 0, 0.3); */
     width: max-content;
     display: block;
     padding: 0.7rem 1.7rem;
@@ -15,7 +18,8 @@ nav {
 }
 
 nav a {
-    background: transparent;
+    background: red;
+    /* background: transparent; */
     padding: 1.2rem;
     border-radius: 50%;
     display: flex;
@@ -28,129 +32,165 @@ nav a.active {
     color: var(--color-bg);
 }
 
-/*-----------------MEDIA QUERIES (MEDIUM DEVICES) ------------*/
+
+
+
+/*========== NOTEBOOKS ===========*/
+
+/*----------------- NEST HUB MAX (1280 X 800) ------------*/
 @media screen and (max-width: 1300px) and (max-height: 850px) and (orientation: landscape) {
 
-    nav a {
-        padding: 3vh;
-        font-size: 3vh;
+    nav {
+        gap: 3.3rem;
     }
-
+    
+    nav a {
+        padding: 1.3vh;
+        font-size: 2.2vh;
+    }
+    
 }
 
-/*-----------------MEDIA QUERIES (MEDIUM DEVICES) ------------*/
+/*----------------- NEST HUB (1024 X 600) ------------*/
 @media screen and (max-width: 1050px) and (max-height: 650px) and (orientation: landscape) {
-
+    
+    nav {
+        gap: 3.3rem;
+    }
+    
     nav a {
-        padding: 3vh;
-        font-size: 3vh;
+        padding: 1.3vh;
+        font-size: 2.2vh;
     }
 
 }
 
 
-/*-----------------MEDIA QUERIES (950 x 1400) ------------*/
+
+/*========== TABLETS ===========*/
+
+/*----------------- SURFACE PRO 7 (912 x 1368) ------------*/
 @media screen and (max-width: 950px) and (max-height: 1400px) and (orientation: portrait) {
+
+    nav {
+        gap: 2.5rem;
+        border-radius: 4rem;
+    }
+
     nav a {
-        padding: 2.3vh;
+        padding: 1.8vh;
         font-size: 2vh;
     }
-}
-
-/*-----------------MEDIA QUERIES (950 x 1400) ------------*/
-@media screen and (max-width: 950px) and (max-height: 1400px) and (orientation: portrait) {
-
-    
 
 }
 
-/*-----------------MEDIA QUERIES (830 x 1200) ------------*/
+/*----------------- IPAD AIR (820 x 1180) ------------*/
 @media screen and (max-width: 830px) and (max-height: 1200px) and (orientation: portrait) {
 
-    
-
-}
-
-/*-----------------MEDIA QUERIES (830 x 1200) ------------*/
-@media screen and (max-width: 800px) and (max-height: 1050px) and (orientation: portrait) {
-
-   
-
-}
-
-/*-----------------MEDIA QUERIES (550 x 730) ------------*/
-@media screen and (max-width: 550px) and (max-height: 730px) and (orientation: portrait) {
-    
-    nav a {
-        padding: 2.6vh;
-        font-size: 2.4vh;
+    nav {
+        gap: 3rem;
+        border-radius: 4rem;
     }
-
-}
-
-/*-----------------MEDIA QUERIES (420 x 950) ------------*/
-@media screen and (max-width: 420px) and (max-height: 950px) and (orientation: portrait) {
-
-    nav a {
-        padding: 2.2vh;
-        font-size: 2.2vh;
-    }
-
-}
-
-/*-----------------MEDIA QUERIES (420 x 800) ------------*/
-@media screen and (max-width: 420px) and (max-height: 800px) and (orientation: portrait) {
-
-    
-
-}
-
-/*-----------------MEDIA QUERIES (420 x 750) ------------*/
-@media screen and (max-width: 420px) and (max-height: 750px) and (orientation: portrait) {
-    
-    nav a {
-        padding: 2.2vh;
-        font-size: 2.2vh;
-    }
-
-}
-
-/*-----------------MEDIA QUERIES (420 x 700 ...) ------------*/
-@media screen and (max-width: 420px) and (max-height: 700px) and (orientation: portrait) {
-
-    nav a {
-        padding: 2.6vh;
-        font-size: 2.4vh;
-    }
-
-}
-
-/*-----------------MEDIA QUERIES (325 x 700 ...) ------------*/
-@media screen and (max-width: 325px) and (max-height: 700px) and (orientation: portrait) {
-
-    
-
-}
-
-/*-----------------MEDIA QUERIES (325 x 850 ...) ------------*/
-@media screen and (max-width: 325px) and (max-height: 850px) and (orientation: portrait) {
-
-    
-
-}
-
-/*-----------------MEDIA QUERIES (325 x 750 ...) ------------*/
-@media screen and (max-width: 325px) and (max-height: 750px) and (orientation: portrait) {
-
-    
-}
-
-/*-----------------MEDIA QUERIES (325 x 680 ...) ------------*/
-@media screen and (max-width: 325px) and (max-height: 680px) and (orientation: portrait) {
 
     nav a {
         padding: 1.6vh;
-        font-size: 2.6vh;
+        font-size: 1.8vh;
+    }
+
+}
+
+/*----------------- IPAD MINI (768 x 1024) ------------*/
+@media screen and (max-width: 800px) and (max-height: 1050px) and (orientation: portrait) {
+
+    nav {
+        gap: 3rem;
+        border-radius: 4rem;
+    }
+
+    nav a {
+        padding: 1.6vh;
+        font-size: 1.8vh;
+    }
+
+}
+
+/*----------------- SURFACE DUO (540 x 720) ------------*/
+@media screen and (max-width: 550px) and (max-height: 730px) and (orientation: portrait) {
+    
+    nav {
+        gap: 2.7rem;
+        border-radius: 4rem;
+    }
+
+    nav a {
+        padding: 1.2vh;
+        font-size: 1.6vh;
+    }
+
+}
+
+/*========== SMARTPHONES ===========*/
+
+/*----------------- IPHONE XR (414 x 896) ------------*/
+/*----------------- SAMSUNG GALAXY S20 ULTRA (412 x 945) ------------*/
+/*----------------- PIXEL 5 (393 x 851) ------------*/
+/*----------------- IPHONE 12 PRO (390 x 844) ------------*/
+/*----------------- SAMSUNG GALAXY A51/71 (412 x 914) ------------*/
+@media screen and (max-width: 420px) and (max-height: 950px) and (orientation: portrait) {
+
+    nav {
+        gap: 1.8rem;
+        border-radius: 3rem;
+    }
+
+    nav a {
+        padding: 1.3vh;
+        font-size: 1.6vh;
+    }
+
+}
+
+/*----------------- SAMSUNG GALAXY S8+ (360 x 740) ------------*/
+@media screen and (max-width: 420px) and (max-height: 800px) and (orientation: portrait) {
+
+    nav {
+        gap: 1.6rem;
+        border-radius: 3rem;
+    }
+
+    nav a {
+        padding: 1.5vh;
+        font-size: 1.8vh;
+    }
+
+}
+
+/*----------------- IPHONE SE (375 x 667 ...) ------------*/
+@media screen and (max-width: 420px) and (max-height: 700px) and (orientation: portrait) {
+
+    nav {
+        gap: 1.6rem;
+        border-radius: 3rem;
+    }
+
+    nav a {
+        padding: 1.5vh;
+        font-size: 2vh;
+    }
+    
+}
+
+/*----------------- GALAXY FOLD (280 x 653) ------------*/
+@media screen and (max-width: 325px) and (max-height: 700px) and (orientation: portrait) {
+
+    nav {
+        gap: 1.25rem;
+        border-radius: 3rem;
+    }
+
+    nav a {
+        padding: 1.1vh;
+        font-size: 1.9vh;
     }
 
 }
