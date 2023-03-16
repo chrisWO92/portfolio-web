@@ -566,6 +566,18 @@
 /*----------------- GALAXY FOLD (280 x 653) ------------*/
 @media screen and (max-width: 325px) and (max-height: 700px) and (orientation: portrait) {
 
-    
+    .about__content > a {
+        padding: 0.5rem 0.9rem;
+    }
+
+    .about_text > p {
+        font-size: 0.58rem;
+
+    }
+
+    .about__content {
+        width: 86%;
+
+    }
 
 }

@@ -1,3 +1,5 @@
+/*========== GENERAL DESKTOP  ===========*/
+
 #contact {
     height: 100vh;
     width: 100%;
@@ -7,7 +9,7 @@
     overflow: hidden;
 }
 
-.container.contact__container {
+.contact__container {
     width: 58%;
     display: grid;
     grid-template-columns: 30% 58%;
@@ -72,23 +74,305 @@ textarea {
     font-size: 1.2rem;
 }
 
-/*-----------------MEDIA QUERIES (MEDIUM DEVICES) ------------*/
-@media screen and (max-width: 1024px) {
+
+
+
+/*========== NOTEBOOKS ===========*/
+
+/*----------------- NEST HUB MAX (1280 X 800) ------------*/
+@media screen and (max-width: 1300px) and (max-height: 850px) and (orientation: landscape) {
+
+    #contact > h2 {
+        margin-bottom: 2rem;
+    }
+
+    #contact {
+        padding-bottom: 5vh;
+    }
+
+    .contact__option > h4 {
+        font-size: 1rem;
+    }
+
+    .contact__option > a {
+        font-size: 0.9rem;
+    }
     
-    .container,
+}
+
+/*----------------- NEST HUB (1024 X 600) ------------*/
+@media screen and (max-width: 1050px) and (max-height: 650px) and (orientation: landscape) {
+    
+
+
+    #contact > h2 {
+        margin-bottom: 1.0rem;
+        font-size: 1.6rem;
+    }
+
+    #contact > h5 {
+        font-size: 1rem;
+    }
+
+    .contact__option {
+        padding: 0.5rem;
+    }
+
+    .contact__option > h4 {
+        font-size: 0.9rem;
+    }
+
+    .contact__option > a {
+        font-size: 0.8rem;
+    }
+
+    form {
+        gap: 0.8rem;
+    }
+    
+    input, 
+    textarea {
+        padding: 0.9rem;
+    }
+    
+    .send_btn {
+        font-size: 0.95rem;
+    }
+}
+
+
+
+/*========== TABLETS ===========*/
+
+/*----------------- SURFACE PRO 7 (912 x 1368) ------------*/
+@media screen and (max-width: 950px) and (max-height: 1400px) and (orientation: portrait) {
+
     .contact__container {
-        grid-template-columns: 1fr;
+        width: 67%;
+        display: flex;
+        flex-direction: column;
         gap: 2rem;
+    }
+
+    .contact__options {
+        flex-direction: row;
+        gap: 1.2rem;
+    }
+
+    .contact__option {
+        width: 100%;
+        padding: 1.8rem;
+    }
+
+    .contact__option > h4 {
+        font-size: 1.6rem;
+    }
+
+    .contact__option > a {
+        font-size: 1.3rem;
+    }
+
+    input, 
+    textarea {
+        padding: 1.6rem;
+        font-size: 1.4rem;
+    }
+
+    .send_btn {
+        font-size: 1.7rem;
+        margin: 2vh auto 0;
     }
 
 }
 
-/*-----------------MEDIA QUERIES (SMALL DEVICES) ------------*/
-@media screen and (max-width: 600px) {
-    
-    .container,
+/*----------------- IPAD AIR (820 x 1180) ------------*/
+@media screen and (max-width: 830px) and (max-height: 1200px) and (orientation: portrait) {
+
+
+
+}
+
+/*----------------- IPAD MINI (768 x 1024) ------------*/
+@media screen and (max-width: 800px) and (max-height: 1050px) and (orientation: portrait) {
+
     .contact__container {
-        width: var(--container-width-sm);
+        gap: 1rem;
+    }
+
+    .contact__option {
+        padding: 1.4rem;
+    }
+
+    .contact__option > h4 {
+        font-size: 1.3rem;
+    }
+
+    .contact__option > a {
+        font-size: 1rem;
+    }
+
+    input, 
+    textarea {
+        padding: 1.0rem;
+        font-size: 1.0rem;
+    }
+
+    .send_btn {
+        font-size: 1.4rem;
+    }
+}
+
+/*----------------- SURFACE DUO (540 x 720) ------------*/
+@media screen and (max-width: 550px) and (max-height: 730px) and (orientation: portrait) {
+    
+    #contact {
+        padding-bottom: 2vh;
+    }
+
+    #contact > h2 {
+        font-size: 1.3rem;
+        margin-bottom: 3vh;
+    }
+
+    #contact > h5 {
+        font-size: 0.7rem;
+    }
+
+    .contact__container {
+        gap: 0.8rem;
+        width: 70%;
+    }
+
+    .contact__option {
+        padding: 0.5rem;
+    }
+
+    .contact__option > h4 {
+        font-size: 0.8rem;
+    }
+
+    .contact__option__icon {
+        margin-bottom: 0rem;
+        font-size: 1rem;
+    }
+
+    .contact__option > a {
+        margin-top: 0rem;
+        font-size: 0.7rem;
+    }
+
+    form {
+        gap: 0.7rem;
+    }
+
+    input, 
+    textarea {
+        padding: 0.7rem;
+        font-size: 0.7rem;
+    }
+
+    .send_btn {
+        font-size: 1rem;
+        margin-top: 0;
+    }
+
+}
+
+/*========== SMARTPHONES ===========*/
+
+/*----------------- IPHONE XR (414 x 896) ------------*/
+/*----------------- SAMSUNG GALAXY S20 ULTRA (412 x 945) ------------*/
+/*----------------- PIXEL 5 (393 x 851) ------------*/
+/*----------------- IPHONE 12 PRO (390 x 844) ------------*/
+/*----------------- SAMSUNG GALAXY A51/71 (412 x 914) ------------*/
+@media screen and (max-width: 420px) and (max-height: 950px) and (orientation: portrait) {
+
+    #contact {
+        padding-bottom: 4vh;
+    }
+
+    #contact > h2 {
+        font-size: 1.3rem;
+        margin-bottom: 4vh;
+    }
+
+    .contact__container {
+        width: 80%;
+    }
+
+    #contact > h5 {
+        font-size: 0.7rem;
+    }
+
+    .contact__options {
+        gap: 0.9rem;
+    }
+
+    .contact__option {
+        padding: 0.8rem;
+    }
+
+    .contact__option > h4 {
+        font-size: 0.9rem;
+    }
+
+    .contact__option > a {
+        font-size: 0.7rem;
+    }
+
+    input, 
+    textarea {
+        padding: 0.9rem;
+        font-size: 0.8rem;
+    }
+
+    .send_btn {
+        font-size: 1rem;
+        margin-top: 0.5rem;
+    }
+
+}
+
+/*----------------- SAMSUNG GALAXY S8+ (360 x 740) ------------*/
+@media screen and (max-width: 420px) and (max-height: 800px) and (orientation: portrait) {
+
+    .contact__option {
+        padding: 0.6rem;
+    }
+
+    .contact__option > h4 {
+        font-size: 0.8rem;
+    }
+
+    .contact__option > a {
+        font-size: 0.6rem;
+    }
+
+    input, 
+    textarea {
+        padding: 0.7rem;
+        font-size: 0.7rem;
+    }
+
+    .send_btn {
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+    }
+
+}
+
+/*----------------- IPHONE SE (375 x 667 ...) ------------*/
+@media screen and (max-width: 420px) and (max-height: 700px) and (orientation: portrait) {
+
+
+    
+}
+
+/*----------------- GALAXY FOLD (280 x 653) ------------*/
+@media screen and (max-width: 325px) and (max-height: 700px) and (orientation: portrait) {
+
+    .contact__option {
+        border-radius: 1rem;
     }
 
 }

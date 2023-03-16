@@ -61,24 +61,145 @@ footer a {
     font-size: 1rem;
 }
 
-/*-----------------MEDIA QUERIES (MEDIUM DEVICES) ------------*/
-@media screen and (max-width: 1024px) {
+
+
+/*========== NOTEBOOKS ===========*/
+
+/*----------------- NEST HUB MAX (1280 X 800) ------------*/
+@media screen and (max-width: 1300px) and (max-height: 850px) and (orientation: landscape) {
+
+
     
+}
+
+/*----------------- NEST HUB (1024 X 600) ------------*/
+@media screen and (max-width: 1050px) and (max-height: 650px) and (orientation: landscape) {
     
+
 
 }
 
 
-/*-----------------MEDIA QUERIES (SMALL DEVICES) ------------*/
-@media screen and (max-width: 600px) {
+
+/*========== TABLETS ===========*/
+
+/*----------------- SURFACE PRO 7 (912 x 1368) ------------*/
+@media screen and (max-width: 950px) and (max-height: 1400px) and (orientation: portrait) {
+
+    .footer__copyright > small {
+        font-size: 1.1rem;
+    }
+    
+
+}
+
+/*----------------- IPAD AIR (820 x 1180) ------------*/
+@media screen and (max-width: 830px) and (max-height: 1200px) and (orientation: portrait) {
+
+
+
+}
+
+/*----------------- IPAD MINI (768 x 1024) ------------*/
+@media screen and (max-width: 800px) and (max-height: 1050px) and (orientation: portrait) {
+
+    .permalinks {
+        gap: 1.5rem;
+
+    }
+    
+    .permalinks > li > a {
+        font-size: 1.0rem;
+    }
+
+    .footer__copyright > small {
+        font-size: 1.0rem;
+    }
+
+}
+
+/*----------------- SURFACE DUO (540 x 720) ------------*/
+@media screen and (max-width: 550px) and (max-height: 730px) and (orientation: portrait) {
     
     .permalinks {
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 1.2rem;
+    }
+    
+    .permalinks > li > a {
+        font-size: 1rem;
+    }
+
+    .footer__copyright > small {
+        font-size: 0.9rem;
+    }
+
+}
+
+/*========== SMARTPHONES ===========*/
+
+/*----------------- IPHONE XR (414 x 896) ------------*/
+/*----------------- SAMSUNG GALAXY S20 ULTRA (412 x 945) ------------*/
+/*----------------- PIXEL 5 (393 x 851) ------------*/
+/*----------------- IPHONE 12 PRO (390 x 844) ------------*/
+/*----------------- SAMSUNG GALAXY A51/71 (412 x 914) ------------*/
+@media screen and (max-width: 420px) and (max-height: 950px) and (orientation: portrait) {
+
+    .permalinks {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    
+    .permalinks > li > a {
+        font-size: 1rem;
+    }
+
+    .footer__copyright > small {
+        font-size: 0.9rem;
+    }
+
+}
+
+/*----------------- SAMSUNG GALAXY S8+ (360 x 740) ------------*/
+@media screen and (max-width: 420px) and (max-height: 800px) and (orientation: portrait) {
+
+
+
+}
+
+/*----------------- IPHONE SE (375 x 667 ...) ------------*/
+@media screen and (max-width: 420px) and (max-height: 700px) and (orientation: portrait) {
+
+    .footer__logo {
+        margin-bottom: 0.8rem;
     }
 
     .footer__socials {
-        margin-bottom: 2.6rem;
+        margin-bottom: 1.8rem;
     }
+
+    .permalinks {
+        flex-direction: column;
+        gap: 0.9rem;
+    }
+    
+    .permalinks > li > a {
+        font-size: 0.8rem;
+    }
+
+    .footer__copyright {
+        margin-bottom: 4rem;
+    }
+
+    .footer__copyright > small {
+        font-size: 0.7rem;
+    }
+    
+}
+
+/*----------------- GALAXY FOLD (280 x 653) ------------*/
+@media screen and (max-width: 325px) and (max-height: 700px) and (orientation: portrait) {
+
+
 
 }

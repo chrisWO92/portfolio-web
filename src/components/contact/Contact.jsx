@@ -22,7 +22,7 @@ const Contact = () => {
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
 
-      <div className="container contact__container">
+      <div className="contact__container">
         <div className="contact__options">
           <article className='contact__option'>
             <AiOutlineMail className='contact__option__icon'/>
@@ -30,7 +30,7 @@ const Contact = () => {
             {/* <h5>chrisworkingonline@gmail.com</h5> */}
             <a href="mailto:chrisworkingonline@gmail.com" target='_blank' rel='noreferrer'>Send a Message</a>
           </article>
-          <article className='contact__option'>
+          <article style={{display: 'none'}}  className='contact__option'>
             <RiMessengerLine className='contact__option__icon'/>
             <h4>Facebook</h4>
             {/* <h5>My Facebook</h5> */}
