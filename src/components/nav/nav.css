@@ -12,7 +12,7 @@ nav {
     transform: translateX(-50%);
     bottom: 2rem;
     display: flex;
-    gap: 0.8rem;
+    gap: 3rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
 }
@@ -20,11 +20,11 @@ nav {
 nav a {
     background: red;
     /* background: transparent; */
-    padding: 1.2rem;
+    padding: 1.0rem;
     border-radius: 50%;
     display: flex;
     color: var(--color-light);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 nav a.active {
