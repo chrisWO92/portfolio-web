@@ -196,7 +196,7 @@ header {
 
     .header__socials{
         gap: 1.5vh;
-        bottom: 14vh;
+        bottom: 8vh;
         left: -6vw;
     }
 
@@ -207,7 +207,7 @@ header {
     .scroll__down {
         font-size: 3.5vw;
         padding-right: 5rem;
-        bottom: 19vh;
+        bottom: 14vh;
         right: -18vw;
     }
 

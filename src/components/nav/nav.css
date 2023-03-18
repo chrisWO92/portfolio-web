@@ -5,26 +5,26 @@ nav {
     /* background: rgba(0, 0, 0, 0.3); */
     width: max-content;
     display: block;
-    padding: 0.7rem 1.7rem;
+    padding: 1vh 2vh;
     z-index: 2;
     position: fixed;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 2rem;
+    bottom: 3vh;
     display: flex;
-    gap: 3rem;
-    border-radius: 3rem;
+    gap: 3vw;
+    border-radius: 4vw;
     backdrop-filter: blur(15px);
 }
 
 nav a {
     background: red;
     /* background: transparent; */
-    padding: 1.0rem;
+    padding: 0.9vw;
     border-radius: 50%;
     display: flex;
     color: var(--color-light);
-    font-size: 1.3rem;
+    font-size: 1.4vw;
 }
 
 nav a.active {
@@ -35,162 +35,82 @@ nav a.active {
 
 
 
-/*========== NOTEBOOKS ===========*/
+/*----------------- MEDIA QUERIES ------------------*/
 
-/*----------------- NEST HUB MAX (1280 X 800) ------------*/
-@media screen and (max-width: 1300px) and (max-height: 850px) and (orientation: landscape) {
-
+/*========== BIG NOTEBOOKS ===========*/
+@media screen and (max-width: 1300px) and (orientation: landscape) {
+    
     nav {
-        gap: 3.3rem;
+        bottom: 4vh;
+        gap: 4vw;
+        border-radius: 5vw;
     }
     
     nav a {
-        padding: 1.3vh;
-        font-size: 2.2vh;
-    }
-    
-}
-
-/*----------------- NEST HUB (1024 X 600) ------------*/
-@media screen and (max-width: 1050px) and (max-height: 650px) and (orientation: landscape) {
-    
-    nav {
-        gap: 3.3rem;
-    }
-    
-    nav a {
-        padding: 1.3vh;
-        font-size: 2.2vh;
+        padding: 1vw;
     }
 
 }
 
 
-
-/*========== TABLETS ===========*/
-
-/*----------------- SURFACE PRO 7 (912 x 1368) ------------*/
-@media screen and (max-width: 950px) and (max-height: 1400px) and (orientation: portrait) {
+/*========== SMALL NOTEBOOKS ===========*/
+@media screen and (max-width: 1050px) and (orientation: landscape) {
 
     nav {
-        gap: 2.5rem;
-        border-radius: 4rem;
+        gap: 5vw;
+        border-radius: 5vw;
     }
-
+    
     nav a {
-        padding: 1.8vh;
-        font-size: 2vh;
+        padding: 1.2vw;
+        font-size: 1.6vw;
     }
 
 }
 
-/*----------------- IPAD AIR (820 x 1180) ------------*/
-@media screen and (max-width: 830px) and (max-height: 1200px) and (orientation: portrait) {
+
+
+/*========== BIG TABLETS ===========*/
+@media screen and (max-width: 1400px) and (orientation: portrait) {
 
     nav {
-        gap: 3rem;
-        border-radius: 4rem;
+        gap: 7.6vw;
+        border-radius: 5vw;
     }
-
+    
     nav a {
-        padding: 1.6vh;
-        font-size: 1.8vh;
+        padding: 1.4vw;
+        font-size: 3.5vw;
     }
 
 }
 
-/*----------------- IPAD MINI (768 x 1024) ------------*/
-@media screen and (max-width: 800px) and (max-height: 1050px) and (orientation: portrait) {
-
-    nav {
-        gap: 3rem;
-        border-radius: 4rem;
-    }
-
-    nav a {
-        padding: 1.6vh;
-        font-size: 1.8vh;
-    }
-
-}
-
-/*----------------- SURFACE DUO (540 x 720) ------------*/
-@media screen and (max-width: 550px) and (max-height: 730px) and (orientation: portrait) {
+/*========== SMALL TABLETS ===========*/
+@media screen and (max-width: 820px)and (orientation: portrait) {
     
     nav {
-        gap: 2.7rem;
-        border-radius: 4rem;
+        gap: 9vw;
+        border-radius: 5vw;
     }
-
+    
     nav a {
-        padding: 1.2vh;
-        font-size: 1.6vh;
+        padding: 1.4vw;
+        font-size: 4.3vw;
     }
 
 }
 
 /*========== SMARTPHONES ===========*/
-
-/*----------------- IPHONE XR (414 x 896) ------------*/
-/*----------------- SAMSUNG GALAXY S20 ULTRA (412 x 945) ------------*/
-/*----------------- PIXEL 5 (393 x 851) ------------*/
-/*----------------- IPHONE 12 PRO (390 x 844) ------------*/
-/*----------------- SAMSUNG GALAXY A51/71 (412 x 914) ------------*/
-@media screen and (max-width: 420px) and (max-height: 950px) and (orientation: portrait) {
+@media screen and (max-width: 420px) and (orientation: portrait) {
 
     nav {
-        gap: 1.8rem;
-        border-radius: 3rem;
-    }
-
-    nav a {
-        padding: 1.3vh;
-        font-size: 1.6vh;
-    }
-
-}
-
-/*----------------- SAMSUNG GALAXY S8+ (360 x 740) ------------*/
-@media screen and (max-width: 420px) and (max-height: 800px) and (orientation: portrait) {
-
-    nav {
-        gap: 1.6rem;
-        border-radius: 3rem;
-    }
-
-    nav a {
-        padding: 1.5vh;
-        font-size: 1.8vh;
-    }
-
-}
-
-/*----------------- IPHONE SE (375 x 667 ...) ------------*/
-@media screen and (max-width: 420px) and (max-height: 700px) and (orientation: portrait) {
-
-    nav {
-        gap: 1.6rem;
-        border-radius: 3rem;
-    }
-
-    nav a {
-        padding: 1.5vh;
-        font-size: 2vh;
+        gap: 9vw;
+        border-radius: 8vw;
     }
     
-}
-
-/*----------------- GALAXY FOLD (280 x 653) ------------*/
-@media screen and (max-width: 325px) and (max-height: 700px) and (orientation: portrait) {
-
-    nav {
-        gap: 1.25rem;
-        border-radius: 3rem;
-    }
-
     nav a {
-        padding: 1.1vh;
-        font-size: 1.9vh;
+        padding: 1.6vw;
+        font-size: 5vw;
     }
 
 }
