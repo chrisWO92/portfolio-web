@@ -1,7 +1,5 @@
 /*========== GENERAL DESKTOP ===========*/
 
-/*-------header container-----*/
-
 header {
     height: 100vh;
     width: 100%;
@@ -20,8 +18,6 @@ header {
     margin: 0 auto;
 }
 
-
-/*-----------header socials------------*/
 .header__socials{
     display: flex;
     flex-direction: column;
@@ -36,7 +32,6 @@ header {
     font-size: 1.4rem;
 }
 
-/*adding the line above the social icons*/
 .header__socials::after{
     content: '';
     width: 1px;
@@ -44,7 +39,6 @@ header {
     background: var(--color-primary);
 }
 
-/*-----------cta & animated text----------*/
 .header__text {
     display: flex;
     flex-direction: column;
@@ -54,28 +48,25 @@ header {
 }
 
 .animated_text {
-    font-size: 3rem;
+    font-size: 2.3vw;
 }
 
 .cta {
-    margin-top: 2.5rem;
-    margin-bottom: 4rem;
+    margin-top: 5vh;
+    margin-bottom: 4.5vh;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
 }
 
 .cta > a {
-    font-size: 1.2rem;
+    font-size: 1.5vw;
 }
 
-/*-----------floating image------------*/
 .me {
-    color: white;
-    margin: auto;
-    padding: 8rem 8rem 12rem 8rem;
-    width: 50%;
-    height: auto;
+    margin: 18vh 0 0 10vh;
+    width: 40vh;
+    max-width: 60%;
     position: relative;
     overflow: hidden;
     animation: floating linear 4s infinite;
@@ -95,7 +86,6 @@ header {
     }
 }
 
-/*-----------scroll down link------------*/
 .scroll__down {
     position: absolute;
     right: -2.8rem;
@@ -105,372 +95,149 @@ header {
     font-size: 1.3rem;
 }
 
+/*----------------- MEDIA QUERIES ------------------*/
 
-
-/*========== NOTEBOOKS ===========*/
-
-/*----------------- NEST HUB MAX (1280 X 800) ------------*/
-@media screen and (max-width: 1300px) and (max-height: 850px) and (orientation: landscape) {
+/*========== BIG NOTEBOOKS ===========*/
+@media screen and (max-width: 1300px) and (orientation: landscape) {
     
-    .animated_text {
-        font-size: 2.0rem;
-    }
-
-    .header__socials{
-        left: -8vh;
-        bottom: 3rem;
-    }
-
-    .scroll__down {
-        right: -14vh;
-        bottom: 18vh;
-    }
-
-    .header__text {
-        width: 40%;
-    }
-
-    .me {
-        padding: 8rem 8rem 12rem 8rem;
-        width: 60%;
-        left: 9vh;
-    }
-}
-
-/*----------------- NEST HUB (1024 X 600) ------------*/
-@media screen and (max-width: 1050px) and (max-height: 650px) and (orientation: landscape) {
-
     .header__container {
-        width: 80%;
+        width: 75%;
     }
-    
+
     .animated_text {
-        font-size: 1.5rem;
+        font-size: 2.5vw;
     }
 
     .header__socials{
-        left: -4vh;
-        bottom: 3rem;
-    }
-
-    .header__socials > a {
-        font-size: 1.1rem;
+        left: -7vw;
+        bottom: 8vh;
     }
 
     .scroll__down {
-        right: -11vh;
-        bottom: 22.5vh;
-        font-size: 1.1rem;
+        right: -12vw;
+        bottom: 18vh;
     }
 
     .header__text {
         width: 56%;
         position: relative;
-        left: 8vh;
+        left: 0vw;
     }
 
     .cta > a {
-        font-size: 1.1rem;
+        font-size: 1.6vw;
     }
 
     .me {
-        padding: 6rem 8rem 12rem 8rem;
-        width: 60%;
-        left: 5vh;
+        margin: 18vh 0 0 10vh;
+        width: 40vh;
+        max-width: 60%;
+    }
+}
+
+
+/*========== SMALL NOTEBOOKS ===========*/
+@media screen and (max-width: 1050px) and (orientation: landscape) {
+
+    .header__socials{
+        left: -4vh;
+    }
+
+    .header__socials > a {
+        font-size: 1.8vw;
+    }
+
+    .scroll__down {
+        right: -7.5vw;
+        bottom: 19vh;
+        font-size: 1.8vw;
+    }
+
+    .header__text {
+        left: 0vw;
+    }
+
+    .cta > a {
+        font-size: 1.7vw;
     }
 }
 
 
 
-/*========== TABLETS ===========*/
-
-/*----------------- SURFACE PRO 7 (912 x 1368) ------------*/
-@media screen and (max-width: 950px) and (max-height: 1400px) and (orientation: portrait) {
-
-    header {
-        height: 100vh;
-    }
+/*========== BIG TABLETS ===========*/
+@media screen and (max-width: 1400px) and (orientation: portrait) {
 
     .header__container {
         width: 80%;
-        height: 100%;
-        text-align: center;
-        position: relative;
-        display: flex;
         flex-direction: column;
     }
 
     .me {
         order: 1;
-        height: auto;
+        max-width: 90%;
         width: 25vh;
-        margin: 10vh auto 0;
+        margin: 12vh auto 0;
         padding: 5vh 0 0 0;
     }
 
     .animated_text {
-        font-size: 2.5rem;
+        font-size: 5vw;
     }
 
     .header__text {
         order: 2;
         width: 100%;
-        margin: 10vh auto 0rem;
+        margin: 11vh auto 0;
     }
 
     .cta > a {
-        font-size: 2rem;
+        font-size: 4vw;
     }
 
     .header__socials{
         gap: 1.5vh;
-        bottom: 8vh;
-        left: -3vh;
+        bottom: 14vh;
+        left: -6vw;
     }
 
     .header__socials > a {
-        font-size: 1.7rem;
+        font-size: 4vw;
     }
 
     .scroll__down {
-        font-size: 1.6rem;
-        bottom: 18vh;
-        right: -8vh;
-    }
-
-}
-
-/*----------------- IPAD AIR (820 x 1180) ------------*/
-@media screen and (max-width: 830px) and (max-height: 1200px) and (orientation: portrait) {
-
-    .header__container {
-        width: 75%;
-    }
-
-    .me {
-        width: 25vh;
-        margin: 10vh auto 0;
-        padding: 5vh 0 0 0;
-    }
-
-    .animated_text {
-        font-size: 2rem;
-    }
-
-    .header__text {
-        width: 100%;
-        margin: 10vh auto 0rem;
-    }
-
-    .cta > a {
-        font-size: 1.5rem;
-    }
-
-    .header__socials{
-        gap: 1.5vh;
-        bottom: 8vh;
-        left: -4vh;
-    }
-
-    .header__socials > a {
-        font-size: 1.5rem;
-    }
-
-    .scroll__down {
-        font-size: 1.6rem;
-        bottom: 17vh;
-        right: -9vh;
-    }
-
-}
-
-/*----------------- IPAD MINI (768 x 1024) ------------*/
-@media screen and (max-width: 800px) and (max-height: 1050px) and (orientation: portrait) {
-
-    .me {
-        margin: 4vh auto 0;
-        padding: 5vh 0 0 0;
-    }
-
-    .animated_text {
-        font-size: 2.3rem;
-    }
-
-    .header__text {
-        margin: 11vh auto 0rem;
-    }
-
-    .header__socials{
-        bottom: 7.5vh;
-    }
-
-    .scroll__down {
-        font-size: 1.6rem;
-        bottom: 17.4vh;
-        right: -10vh;
-    }
-
-}
-
-/*----------------- SURFACE DUO (540 x 720) ------------*/
-@media screen and (max-width: 550px) and (max-height: 730px) and (orientation: portrait) {
-    .me {
-        width: 25vh;
-        margin: 4vh auto 0;
-        padding: 5vh 0 0 0;
-    }
-
-    .animated_text {
-        font-size: 1.5rem;
-    }
-
-    .header__text {
-        width: 100%;
-        margin: 9vh auto 0rem;
-    }
-
-    .cta > a {
-        font-size: 1.1rem;
-    }
-
-    .header__socials{
-        gap: 1.5vh;
-        bottom: 8vh;
-
-    }
-
-    .header__socials > a {
-        font-size: 1rem;
-    }
-
-    .scroll__down {
+        font-size: 3.5vw;
+        padding-right: 5rem;
         bottom: 19vh;
-        right: -9vh;
-        font-size: 1.1rem;
+        right: -18vw;
     }
 
 }
 
-
-
-/*========== SMARTPHONES ===========*/
-
-/*----------------- IPHONE XR (414 x 896) ------------*/
-/*----------------- SAMSUNG GALAXY S20 ULTRA (412 x 945) ------------*/
-/*----------------- PIXEL 5 (393 x 851) ------------*/
-/*----------------- IPHONE 12 PRO (390 x 844) ------------*/
-/*----------------- SAMSUNG GALAXY A51/71 (412 x 914) ------------*/
-@media screen and (max-width: 420px) and (max-height: 950px) and (orientation: portrait) {
-
-    header {
-        height: 100vh;
-    }
-
+/*========== SMALL TABLETS ===========*/
+@media screen and (max-width: 820px)and (orientation: portrait) {
+    
     .header__socials,
     .scroll__down {
         display: none;
     }
 
-    .me {
-        width: 27vh;        
-        margin: 1.4rem auto 0;
-        padding: 3.8rem 0 0 0;
-    }
-
-    .header__text {
-        width: 100%;
-        margin-top: 12vh;
-    }
-
-    .animated_text {
-        font-size: 1.6rem;
-    }
-
-    .cta > a {
-        font-size: 1.2rem;
-    }
-
 }
 
-/*----------------- SAMSUNG GALAXY S8+ (360 x 740) ------------*/
-@media screen and (max-width: 420px) and (max-height: 800px) and (orientation: portrait) {
+/*========== SMARTPHONES ===========*/
+@media screen and (max-width: 420px) and (orientation: portrait) {
 
-    .me {
-        width: 25vh;
-        margin: 1.4rem auto 0;
-        padding: 3.8rem 0 0 0;
-    }
-
-    .header__text {
-        margin-top: 4rem;
-        margin-bottom: 0rem;
-    }
-
-    .cta > a {
-        font-size: 1rem;
-    }
-
-}
-
-/*----------------- IPHONE SE (375 x 667 ...) ------------*/
-@media screen and (max-width: 420px) and (max-height: 700px) and (orientation: portrait) {
-
-    .me {
-        width: 25vh;
-        margin: 6vh auto 0;
-        padding: 3.8vh 0 0 0;
-    }
-
-    .header__text {
-        margin-top: 11vh;
-        margin-bottom: 0rem;
-    }
-
-    
     .animated_text {
-        font-size: 1.5rem;
-    }
-
-    .cta > a {
-        font-size: 1.1rem;
-    }
-
-}
-
-/*----------------- GALAXY FOLD (280 x 653) ------------*/
-@media screen and (max-width: 325px) and (max-height: 700px) and (orientation: portrait) {
-
-    .header__container {
-        width: 90%;
-    }
-
-    .me {
-        width: 25vh;
-    }
-
-    .header__text {
-        margin-top: 8vh;
-    }
-
-    
-    .animated_text {
-        font-size: 1.2rem;
+        font-size: 6vw;
     }
 
     .cta {
-        align-items: center;
-        flex-direction: column;
+        gap: 3vw;
     }
 
     .cta > a {
-        font-size: 0.9rem;
+        font-size: 4.5vw;
     }
 
 }
-
-
-
-
-
 
 
