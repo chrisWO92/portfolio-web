@@ -121,6 +121,24 @@
 
 }
 
+/*========== BIG SMARTPHONES ===========*/
+@media screen and (max-width: 550px)and (orientation: portrait) {
+    
+    .experience_subtitle {
+        font-size: 2.6vw;
+    }
+
+    .skill_tag {
+        width: 8vw;
+        font-size: 2.3vw;
+    }
+
+    .experience__details__icon {
+        font-size: 2.6vh;    
+    }
+
+}
+
 /*========== SMARTPHONES ===========*/
 @media screen and (max-width: 420px) and (orientation: portrait) {
 

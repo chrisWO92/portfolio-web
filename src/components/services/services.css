@@ -138,6 +138,24 @@
 
 }
 
+/*========== BIG SMARTPHONES ===========*/
+@media screen and (max-width: 550px)and (orientation: portrait) {
+    
+    .services__container {
+        max-width: 85%;
+    }
+    
+    .service__list__icon {
+        font-size: 3.5vw;
+    }
+
+    .service__list p {
+        font-size: 2.8vw;
+    }
+
+}
+
+
 /*========== SMARTPHONES ===========*/
 @media screen and (max-width: 420px) and (orientation: portrait) {
 

@@ -119,11 +119,30 @@
 
 }
 
+/*========== BIG SMARTPHONES ===========*/
+@media screen and (max-width: 550px)and (orientation: portrait) {
+    
+    .portfolio__container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 3.5vw;
+        width: 75%;
+    }
+
+    .portfolio__item h3 {
+        font-size: 3.5vw;
+        margin: 1rem 0 0.8rem;
+    }
+
+    .portfolio__item__cta > a {
+        font-size: 3vw;
+    }
+
+}
+
 /*========== SMARTPHONES ===========*/
 @media screen and (max-width: 420px) and (orientation: portrait) {
 
     .portfolio__container {
-        grid-template-columns: repeat(1, 1fr);
         gap: 3vw;
         width: 85%;
     }
