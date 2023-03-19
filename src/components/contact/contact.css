@@ -61,6 +61,7 @@ form {
 
 input, 
 textarea {
+    font-family: sans-serif;
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
@@ -182,11 +183,11 @@ textarea {
     }
 
     .contact__option h4 {
-        font-size: 2.7vw;
+        font-size: 2.9vw;
     }
 
     .contact__option a {
-        font-size: 2vw;
+        font-size: 2.6vw;
     }
 
     input, 
