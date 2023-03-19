@@ -1,8 +1,8 @@
 /*========== GENERAL DESKTOP ===========*/
 
 nav {
-    background: white;
-    /* background: rgba(0, 0, 0, 0.3); */
+    /* background: white; */
+    background: rgba(0, 0, 0, 0.3);
     width: max-content;
     display: block;
     padding: 1vh 2vh;
@@ -18,8 +18,8 @@ nav {
 }
 
 nav a {
-    background: red;
-    /* background: transparent; */
+    /* background: red; */
+    background: transparent;
     padding: 0.9vw;
     border-radius: 50%;
     display: flex;
