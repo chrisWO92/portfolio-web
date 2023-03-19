@@ -7,6 +7,7 @@
     flex-direction: column;
     justify-content: center;
     overflow: hidden;
+    padding-bottom: 13vh;
 }
 
 .services__container {
@@ -143,6 +144,10 @@
     
     .services__container {
         max-width: 85%;
+    }
+
+    .service__list {
+        padding: 2.8vh 2.6vw 2vh 3.2vw;
     }
     
     .service__list__icon {
