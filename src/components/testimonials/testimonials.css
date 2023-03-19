@@ -47,24 +47,86 @@
     background: var(--color-primary) !important;
 }
 
-/*-----------------MEDIA QUERIES (MEDIUM DEVICES) ------------*/
-@media screen and (max-width: 1024px) {
+
+
+/*========== NOTEBOOKS ===========*/
+
+/*----------------- NEST HUB MAX (1280 X 800) ------------*/
+@media screen and (max-width: 1300px) and (max-height: 850px) and (orientation: landscape) {
+
+
     
-    .container .testimonials_container {
-        width: 60%;
-    }
+}
+
+/*----------------- NEST HUB (1024 X 600) ------------*/
+@media screen and (max-width: 1050px) and (max-height: 650px) and (orientation: landscape) {
+    
+
 
 }
 
-/*-----------------MEDIA QUERIES (SMALL DEVICES) ------------*/
-@media screen and (max-width: 600px) {
-    
-    .container .testimonials__container {
-        width: var(--container-width-sm);
-    }
 
-    .client__review {
-        width: var(--container-width-sm);
-    }
+
+/*========== TABLETS ===========*/
+
+/*----------------- SURFACE PRO 7 (912 x 1368) ------------*/
+@media screen and (max-width: 950px) and (max-height: 1400px) and (orientation: portrait) {
+
+
+
+}
+
+/*----------------- IPAD AIR (820 x 1180) ------------*/
+@media screen and (max-width: 830px) and (max-height: 1200px) and (orientation: portrait) {
+
+
+
+}
+
+/*----------------- IPAD MINI (768 x 1024) ------------*/
+@media screen and (max-width: 800px) and (max-height: 1050px) and (orientation: portrait) {
+
+
+
+}
+
+/*----------------- SURFACE DUO (540 x 720) ------------*/
+@media screen and (max-width: 550px) and (max-height: 730px) and (orientation: portrait) {
+    
+
+
+}
+
+/*========== SMARTPHONES ===========*/
+
+/*----------------- IPHONE XR (414 x 896) ------------*/
+/*----------------- SAMSUNG GALAXY S20 ULTRA (412 x 945) ------------*/
+/*----------------- PIXEL 5 (393 x 851) ------------*/
+/*----------------- IPHONE 12 PRO (390 x 844) ------------*/
+/*----------------- SAMSUNG GALAXY A51/71 (412 x 914) ------------*/
+@media screen and (max-width: 420px) and (max-height: 950px) and (orientation: portrait) {
+
+
+
+}
+
+/*----------------- SAMSUNG GALAXY S8+ (360 x 740) ------------*/
+@media screen and (max-width: 420px) and (max-height: 800px) and (orientation: portrait) {
+
+
+
+}
+
+/*----------------- IPHONE SE (375 x 667 ...) ------------*/
+@media screen and (max-width: 420px) and (max-height: 700px) and (orientation: portrait) {
+
+
+    
+}
+
+/*----------------- GALAXY FOLD (280 x 653) ------------*/
+@media screen and (max-width: 325px) and (max-height: 700px) and (orientation: portrait) {
+
+
 
 }
