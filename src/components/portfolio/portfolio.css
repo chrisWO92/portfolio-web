@@ -27,8 +27,15 @@
 }
 
 .portfolio__item__image {
+    height: 56%;
     border-radius: 1.1rem;
     overflow: hidden;
+}
+
+.portfolio__item__image > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .portfolio__item h3 {
@@ -86,6 +93,17 @@
         width: 85%;
     }
 
+    .portfolio__item__image {
+        height: 58%;
+        border-radius: 1.1rem;
+    }
+    
+    .portfolio__item__image > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
 }
 
 /*========== SMALL TABLETS ===========*/
@@ -100,8 +118,10 @@
         padding: 0.8rem;
     }
 
+
     .portfolio__item__image {
-        border-radius: 0.4rem;
+        height: 56%;
+        border-radius: 0.5rem;
     }
 
     .portfolio__item h3 {
@@ -128,6 +148,15 @@
         width: 75%;
     }
 
+    .portfolio__item__image {
+        height: 62%;
+        border-radius: 0.5rem;
+    }
+
+    .portfolio__item {
+        height: 50vh;
+    }
+
     .portfolio__item h3 {
         font-size: 3.5vw;
         margin: 1rem 0 0.8rem;
@@ -150,6 +179,7 @@
     .portfolio__item {
         border-radius: 0.5rem;
         padding: 0.8rem;
+        height: 43vh;
     }
 
     .portfolio__item__image {

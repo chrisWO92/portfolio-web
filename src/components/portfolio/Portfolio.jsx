@@ -1,14 +1,15 @@
 import React from 'react';
 import './portfolio.css';
 import IMG from '../../assets/me.png'
+import IMG1 from '../../assets/pomodoro-timer.png'
 
 const data = [
   {
     id: 1,
-    image: IMG,
-    title: 'This is a Portfolio Item Title',
-    github: 'https://github.com',
-    demo: 'https://dribble.com'
+    image: IMG1,
+    title: '25 + 5 Pomodoro Timer',
+    github: 'https://github.com/chrisWO92/pomodoro-timer',
+    demo: 'https://fancy-wisp-2164a4.netlify.app'
   },
   {
     id: 2,
