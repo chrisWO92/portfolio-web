@@ -2,6 +2,7 @@ import React from 'react';
 import './portfolio.css';
 import IMG from '../../assets/me.png'
 import IMG1 from '../../assets/pomodoro-timer.png'
+import IMG2 from '../../assets/drum-machine.png'
 
 const data = [
   {
@@ -13,10 +14,10 @@ const data = [
   },
   {
     id: 2,
-    image: IMG,
-    title: 'This is a Portfolio Item Title',
-    github: 'https://github.com',
-    demo: 'https://dribble.com'
+    image: IMG2,
+    title: 'Drum Machine',
+    github: 'https://github.com/chrisWO92/drum-machine',
+    demo: 'https://warm-truffle-5bf2e3.netlify.app'
   },
   {
     id: 3,
