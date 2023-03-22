@@ -3,6 +3,7 @@ import './portfolio.css';
 import IMG from '../../assets/me.png'
 import IMG1 from '../../assets/pomodoro-timer.png'
 import IMG2 from '../../assets/drum-machine.png'
+import IMG3 from '../../assets/online-calculator.png'
 
 const data = [
   {
@@ -21,10 +22,10 @@ const data = [
   },
   {
     id: 3,
-    image: IMG,
-    title: 'This is a Portfolio Item Title',
-    github: 'https://github.com',
-    demo: 'https://dribble.com'
+    image: IMG3,
+    title: 'Online Calculator',
+    github: 'https://github.com/chrisWO92/online-calculator',
+    demo: 'https://eloquent-moxie-a7de82.netlify.app'
   },
   {
     id: 4,
