@@ -25,7 +25,7 @@ const data = [
     image: IMG3,
     title: 'Online Calculator',
     github: 'https://github.com/chrisWO92/online-calculator',
-    demo: 'https://eloquent-moxie-a7de82.netlify.app'
+    demo: 'https://resilient-gnome-0c3caa.netlify.app'
   },
   {
     id: 4,
