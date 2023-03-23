@@ -4,6 +4,7 @@ import IMG from '../../assets/me.png'
 import IMG1 from '../../assets/pomodoro-timer.png'
 import IMG2 from '../../assets/drum-machine.png'
 import IMG3 from '../../assets/online-calculator.png'
+import IMG4 from '../../assets/random-quote-machine.png'
 
 const data = [
   {
@@ -29,24 +30,10 @@ const data = [
   },
   {
     id: 4,
-    image: IMG,
-    title: 'This is a Portfolio Item Title',
-    github: 'https://github.com',
-    demo: 'https://dribble.com'
-  },
-  {
-    id: 5,
-    image: IMG,
-    title: 'This is a Portfolio Item Title',
-    github: 'https://github.com',
-    demo: 'https://dribble.com'
-  },
-  {
-    id: 6,
-    image: IMG,
-    title: 'This is a Portfolio Item Title',
-    github: 'https://github.com',
-    demo: 'https://dribble.com'
+    image: IMG4,
+    title: 'Random Quote Machine',
+    github: 'https://github.com/chrisWO92/random-quote-machine',
+    demo: 'https://eloquent-torrone-398a5d.netlify.app'
   }
 ]
 
