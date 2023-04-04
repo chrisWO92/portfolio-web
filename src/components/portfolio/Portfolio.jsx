@@ -12,7 +12,7 @@ const data = [
     image: IMG5,
     title: 'Attack on Titan Game',
     github: 'https://github.com/chrisWO92/attack-on-titan-game',
-    demo: 'https://jolly-mermaid-3cbc8f.netlify.app/*  */'
+    demo: 'https://jolly-mermaid-3cbc8f.netlify.app/'
   },
   {
     id: 1,
