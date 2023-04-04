@@ -1,12 +1,19 @@
 import React from 'react';
 import './portfolio.css';
-import IMG from '../../assets/me.png'
+import IMG5 from '../../assets/attack-on-titan-game.png'
 import IMG1 from '../../assets/pomodoro-timer.png'
 import IMG2 from '../../assets/drum-machine.png'
 import IMG3 from '../../assets/online-calculator.png'
 import IMG4 from '../../assets/random-quote-machine.png'
 
 const data = [
+  {
+    id: 5,
+    image: IMG5,
+    title: 'Attack on Titan Game',
+    github: 'https://github.com/chrisWO92/attack-on-titan-game',
+    demo: 'https://jolly-mermaid-3cbc8f.netlify.app/*  */'
+  },
   {
     id: 1,
     image: IMG1,
