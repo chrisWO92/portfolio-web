@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-web/static/css/main.9d9ea66f.css",
+    "main.js": "/portfolio-web/static/js/main.bae6e6e1.js",
+    "static/media/header_video.mp4": "/portfolio-web/static/media/header_video.8b473a6d625b373e7e05.mp4",
+    "static/media/attack-on-titan-game.png": "/portfolio-web/static/media/attack-on-titan-game.3d62a76420ef5d48df28.png",
+    "static/media/astronaut4.png": "/portfolio-web/static/media/astronaut4.7151df3ee91323424f1c.png",
+    "static/media/astronaut2.png": "/portfolio-web/static/media/astronaut2.cb51afccfac7a18a51b0.png",
+    "static/media/CV.pdf": "/portfolio-web/static/media/CV.a5c179c14381c5090cf4.pdf",
+    "static/media/pomodoro-timer.png": "/portfolio-web/static/media/pomodoro-timer.1d1332f606124df6fd8c.png",
+    "static/media/drum-machine.png": "/portfolio-web/static/media/drum-machine.76800820e03759507386.png",
+    "static/media/random-quote-machine.png": "/portfolio-web/static/media/random-quote-machine.b075a3c063cc319abbc2.png",
+    "static/media/todo-machine.png": "/portfolio-web/static/media/todo-machine.2621394e09ccfa781842.png",
+    "static/media/online-calculator.png": "/portfolio-web/static/media/online-calculator.8f80413fdb1efc23c1fe.png",
+    "index.html": "/portfolio-web/index.html",
+    "main.9d9ea66f.css.map": "/portfolio-web/static/css/main.9d9ea66f.css.map",
+    "main.bae6e6e1.js.map": "/portfolio-web/static/js/main.bae6e6e1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d9ea66f.css",
+    "static/js/main.bae6e6e1.js"
+  ]
+}
