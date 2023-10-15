@@ -1,8 +1,8 @@
 import React from 'react';
 import './footer.css';
-import {FaFacebookF} from 'react-icons/fa'
-import {FaInstagram} from 'react-icons/fa'
-import {FaTwitter} from 'react-icons/fa'
+import {BsLinkedin} from 'react-icons/bs'
+import {BsGithub} from 'react-icons/bs'
+import {BsTwitter} from 'react-icons/bs'
 
 
 const Footer = () => {
@@ -20,9 +20,14 @@ const Footer = () => {
       </ul>
 
       <div className='footer__socials'>
-        <a href="https://facebook.com" target='_blank' rel="noreferrer"><FaFacebookF /></a>
+
+        <a href="https://www.linkedin.com/in/cristian-pineda-developer/" target='_blank' rel='noreferrer'><BsLinkedin /></a>
+        <a href="https://github.com/chrisWO92" target='_blank' rel='noreferrer'><BsGithub /></a>
+        <a href="https://twitter.com/CrisWo11" target='_blank' rel='noreferrer'><BsTwitter /></a>
+
+        {/* <a href="https://facebook.com" target='_blank' rel="noreferrer"><FaFacebookF /></a>
         <a href="https://instagram.com" target='_blank' rel="noreferrer"><FaInstagram /></a>
-        <a href="https://twitter.com"  target='_blank' rel="noreferrer"><FaTwitter /></a>
+        <a href="https://twitter.com" target='_blank' rel="noreferrer"><FaTwitter /></a> */}
       </div>
 
       <div className="footer__copyright">
